@@ -1,0 +1,13 @@
+Clone this project
+make a folder with your name in it,
+inside the folder of your name, make a file with name task1.py
+
+inside task1.py
+
+Create a program that asks the user for their name and age.
+
+Print a greeting message that includes the user's name.
+
+Based on the age entered, print a message saying whether the user is a "Child", "Teenager", or "Adult".
+
+child below 10, teenager is between 10 and 19 and adult 20+ 
