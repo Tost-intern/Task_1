@@ -1,14 +1,18 @@
+def is_prime(n):
+    if n > 1:
+        for i in range(2, n):
+            if (n % i) == 0:
+                return False
+        return True
+    return False
 
-    #prime num
-num = int(input("Enter a number: "))
-if num > 1:
+# Loop from 1 to 100 and check for prime numbers
+for num in range(1, 101):
+    if num > 90:  # Stop at 90
+        break
+    if is_prime(num):
+        print(num, "is prime")
 
+  
 
-        for i in range(2, num):
-            if (num % i) == 0:
-                print(num, "is not a prime number")
-                break
-        else:
-            print(num, "is a prime number")
-else:
-        print(num, "is not a prime number")
+  
